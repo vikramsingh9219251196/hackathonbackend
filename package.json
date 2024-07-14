@@ -1,0 +1,27 @@
+{
+  "name": "rag-picker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "user_connect_rag-picker",
+  "main": "Backend/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
